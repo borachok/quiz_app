@@ -15,7 +15,7 @@ const AnswerItem = props => {
       onClick={() => props.onAnswerClick(props.answer.id)}
 
     >
-      { props.answer.text }
+      { props.answer.test }
     </li>
   )
 }
